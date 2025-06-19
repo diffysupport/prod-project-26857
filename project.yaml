@@ -1,0 +1,79 @@
+basic:
+    name: 'TH-FORMS (previously HSQ)'
+    environments:
+        production: 'https://todayshomeowner.allstarpros.com'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /ms_widget_builder/th-get-barndominium-quotes
+        - /ms_widget_builder/th-get-bathroom-remodeling-quotes
+        - /ms_widget_builder/th-get-cabinet-quotes
+        - /ms_widget_builder/th-get-cleaning-quotes
+        - /ms_widget_builder/th-get-countertop-quotes
+        - /ms_widget_builder/th-get-decking-quotes
+        - /ms_widget_builder/th-get-door-quotes
+        - /ms_widget_builder/th-get-driveway-quotes
+        - /ms_widget_builder/th-get-electrician-quotes
+        - /ms_widget_builder/th-get-fence-quotes
+        - /ms_widget_builder/th-get-flooring-quotes
+        - /ms_widget_builder/th-get-foundation-repair-quotes
+        - /ms_widget_builder/th-get-french-drain-quotes
+        - /ms_widget_builder/th-get-garage-door-quotes
+        - /ms_widget_builder/th-get-gutter-cleaning-quotes
+        - /ms_widget_builder/th-get-gutter-guard-quotes
+        - /ms_widget_builder/th-get-gutter-quotes
+        - /ms_widget_builder/th-get-home-building-quotes
+        - /ms_widget_builder/th-get-hvac-quotes
+        - /ms_widget_builder/th-get-insulation-quotes
+        - /ms_widget_builder/th-get-interior-painting-quotes
+        - /ms_widget_builder/th-get-kitchen-remodeling-quotes
+        - /ms_widget_builder/th-get-land-survey-quotes
+        - /ms_widget_builder/th-get-lawn-care-quotes
+        - /ms_widget_builder/th-get-moving-quotes
+        - /ms_widget_builder/th-get-patio-paver-quotes
+        - /ms_widget_builder/th-get-patio-quotes
+        - /ms_widget_builder/th-get-pest-control-quotes
+        - /ms_widget_builder/th-get-plumbing-quotes
+        - /ms_widget_builder/th-get-pool-installation-quotes
+        - /ms_widget_builder/th-get-pressure-washing-quotes
+        - /ms_widget_builder/th-get-roofing-quotes
+        - /ms_widget_builder/th-get-siding-quotes
+        - /ms_widget_builder/th-get-solar-quotes
+        - /ms_widget_builder/th-get-stump-removal-quotes
+        - /ms_widget_builder/th-get-tree-removal-quotes
+        - /ms_widget_builder/th-get-water-damage-quotes
+        - /ms_widget_builder/th-get-water-filtration-quotes
+        - /ms_widget_builder/th-get-water-heater-quotes
+        - /ms_widget_builder/th-get-window-quotes
+    monitoring:
+        days: [Sun]
+        type: weekly
+        schedule_time: '10:30 PM'
+        schedule_time_zone: America/New_York
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
