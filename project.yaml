@@ -50,6 +50,11 @@ basic:
         - /ms_widget_builder/th-get-water-filtration-quotes
         - /ms_widget_builder/th-get-water-heater-quotes
         - /ms_widget_builder/th-get-window-quotes
+        - /ms_widget_builder/get-a-castle-windows-quote
+        - /ms_widget_builder/get-an-erie-roofing-quote
+        - /ms_widget_builder/get-an-ars-quote
+        - /ms_widget_builder/get-an-empire-today-quote
+        - /ms_widget_builder/get-a-blvd-moving-quote
     monitoring:
         days: [Sun]
         type: weekly
@@ -71,6 +76,17 @@ advanced:
     night_mode: false
     retina_images: false
     single_ip: false
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
